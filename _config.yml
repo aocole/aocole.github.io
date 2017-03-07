@@ -1,1 +1,21 @@
 theme: jekyll-theme-minimal
+title: aocole's notes
+description: Notes and logs from aocole
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://aocole.github.io
+twitter_username: aocole
+github_username:  aocole
+
+# Build settings
+pagination:
+  enabled: true
+  debug: true
+  per_page: 5
+markdown: kramdown
+gems:
+  - jekyll-feed
+  - jekyll-paginate-v2
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
